@@ -1,23 +1,21 @@
 <template>
-    <div class="relative overflow-x-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... md:p-8 lg:p-10 lg:px-40">
+    <div class="text-center">
         <br>
-        <h1 class="flex justify-center md:text-3xl mb-4 fadeIn" style="font-size:30px"><b>Hello, I'm Carlos Mangandí🧑‍💻</b></h1>
-
-        <br>
+        <h1 class="flex justify-center md:text-3xl mb-4 " style="font-size:30px"><b>Hello, I'm Carlos Mangandí🧑‍💻</b></h1>
         <hr>
-        <p align="center">
-            I'm a student at ESFE/AGAPE and a scholarship holder from the company SeedCodeSV.
+        <br>
+        <p class="text-center text-xl  text-gray-700 dark:text-gray-300">
+            I have been involved in programming for two years and I have been interested in what it means to create and develop applications. In my short experience I have known how to program and use some tools to develop them. I like to continue learning new things such as development technologies for being able to continue having knowledge and knowing even the basics of other programs.
         </p>
         <br>
-        <p class="flex flex-col md:flex-row items-center">
-            &nbsp;&nbsp;&nbsp;&nbsp; I have been involved in programming for two years and I have been interested in what it means to create and develop applications. In my short experience I have known how to program and use some tools to develop them. I like to continue learning new things such as development technologies for being able to continue having knowledge and knowing even the basics of other programs.&nbsp;&nbsp;&nbsp;&nbsp;
+        <p class="text-center text-xl  text-gray-700 dark:text-gray-300">
+            Actualmente me estoy desarrollando en una empresa de desarrollo 
         </p>
-
         <br>
-        <p class="flex justify-center"><b>🛠️Technologies and Tools</b></p>
+        <p class="text-center text-xl  text-gray-700 dark:text-gray-300">Below I show some tools and technologies that I have known throughout my short career:</p>
         <br>
         <br>
-        <div class="flex flex-wrap items-center justify-center md:justify-start">   
+        <div class="flex flex-wrap items-center justify-center md:justify-center">   
             <a class="p-2">
                 <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" class="mr-[10px] md:w-auto md:h-auto h-8">                
             </a>    
@@ -42,6 +40,9 @@
             <a class="p-2">
                 <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" class="mr-[10px] md:w-auto md:h-auto h-8">
             </a>
+        </div>  
+
+        <div class="flex flex-wrap items-center justify-center md:justify-center">
             <a class="p-2">
                 <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" class="mr-[10px] md:w-auto md:h-auto h-8">
             </a>
@@ -57,40 +58,14 @@
             <a class="p-2">
                 <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" class="mr-[10px] md:w-auto md:h-auto h-8">
             </a>
-        </div>  
-        <br>
-        <p class="flex justify-center"><b>Red Social</b></p>
-        <br>
-        <p align="center">
-            <a href="https://www.linkedin.com/in/carlos-mangandí-34a839295">
-                <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" >
-            </a>
-        </p>
-        <br>
-        <hr>
-        <br>
-        <p class="flex flex-wrap items-center justify-center md:justify-start">
-            <img src="https://ximhai.com/img/programando.gif"  class="md:w-auto md:h-auto">
-        </p>
-        <br>
-    </div>   
+        </div>
+    </div>
 </template>
 
-<script lang="ts" setup>
+<script lang='ts' setup>
     
 </script>
 
 <style>
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        .fadeIn {
-            animation: fadeIn 2s ease-in-out;
-        }
-    </style>
+    
+</style>
