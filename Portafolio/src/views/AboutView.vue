@@ -1,7 +1,7 @@
 <template>
     <div class="text-center">
         <br>
-        <h1 class="flex justify-center md:text-3xl mb-4 " style="font-size:30px"><b>Hello, I'm Carlos Mangandí🧑‍💻</b></h1>
+        <h1 class="flex justify-center md:text-3xl mb-4 text-center text-xl  text-gray-700 dark:text-gray-300" style="font-size:30px"><b>Hello, I'm Carlos Mangandí🧑‍💻</b></h1>
         <hr>
         <br>
         <p class="text-center text-xl  text-gray-700 dark:text-gray-300">

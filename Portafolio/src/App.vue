@@ -2,7 +2,7 @@
     <div class="bg-white min-h-screen sm:p-10 p-5 flex flex-col justify-center dark:bg-[#0F172A] duration-500 transition-all ease-in-out subtle-background">  
       <CardHeader />
       <RouterView />
-      <!-- <CardFooter /> -->
+      <CardFooter /> 
     </div>
 </template>
 
